@@ -3,7 +3,6 @@ import { Github } from 'lucide-react';
 import { Linkedin } from 'lucide-react';
 import { Twitter } from 'lucide-react';
 import { Mail } from 'lucide-react';
-import { WiSnow } from "react-icons/wi";
 
 
 export default function Home(props){
