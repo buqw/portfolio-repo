@@ -10,10 +10,12 @@ export default function ProjTemp(props){
                 <img src={props.img} alt="" />
             </div>
 
+            <div id='projName'>
+                <p>
+                    {props.name}
+                </p>
+            </div>
 
-            <p>
-                {props.name}
-            </p>
 
         </div>
     )
