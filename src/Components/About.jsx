@@ -37,7 +37,7 @@ export default function About(props){
 
             <h1 ref={props.certRef}>Certificates</h1>
             <div id="allCertiDiv">
-                <Certificate img={Intro} name={"IntroduIntroduction to Front-End Developmentction"} src={certLinks.intro}/>
+                <Certificate img={Intro} name={"Introduction to Front-End Developmentction"} src={certLinks.intro}/>
                 <Certificate img={Html} name={"HTML and CSS in depth"} src={certLinks.html}/>
                 <Certificate img={js} name={"Programming with JavaScript"} src={certLinks.js}/>
                 <Certificate img={Version} name={"Version Control"} src={certLinks.version}/>

@@ -7,8 +7,12 @@ export default function GetTouch(props){
 
     return(
         <div ref={props.touchRef} id="touchSec">
-            <div>
+            <div id='touchText'>
                 <h1>Get in Touch</h1>
+                <p>Have a project in mind or want to
+                    collaborate? Feel free to reach out.
+                    I'm always open to discussing new
+                    opportunities.</p>
             </div>
 
             <div id="touchCont">
