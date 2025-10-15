@@ -42,6 +42,42 @@
   }
 }
 
+@media(hover:hover){
+  .navBtns:hover{
+  color: aliceblue;
+}
+
+  #getTouch:hover{
+  background-color: rgba(7, 207, 174, 0.737);
+}
+
+#homeIconsDiv button:hover{
+  color: rgb(7, 207, 174);
+}
+
+#certDiv:hover{
+  transform:  translateY(-10px);
+}
+
+#projDiv:hover{
+  transform: translateY(-10px);
+}
+
+#projDiv:hover #projImgDiv{
+  background-color:  rgb(7, 207, 174);
+
+}
+
+#projDiv:hover #projImgDiv img{
+  animation: projImgAnim 0.4s forwards;
+}
+
+#touchCont button:hover{
+  border: solid 2px  rgb(7, 207, 174);
+}
+
+}
+
 body{
   color: aliceblue;
   margin: 0%;
@@ -51,8 +87,7 @@ body{
 nav{
   background-color: rgba(3, 12, 21, 0.464);
   border-bottom: solid 1px rgb(72, 73, 73);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
   position: fixed;
   top: 0%;
   width: 100vw;
@@ -83,9 +118,7 @@ nav div h2{
   font-size: clamp(12px,3vw,20px);
   color: silver;
 }
-.navBtns:hover{
-  color: aliceblue;
-}
+
 
 #getTouch{
   margin-right: 3vw;
@@ -101,9 +134,7 @@ nav div h2{
   color: black;
 
 }
-#getTouch:hover{
-  background-color: rgba(7, 207, 174, 0.737);
-}
+
 
 
 
@@ -143,7 +174,7 @@ nav div h2{
 
 #homeImgDiv{
   width: 40vw;
-  height: 22vh;
+  height: 25vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -170,8 +201,8 @@ nav div h2{
   border-radius: 50%;
   border: solid 3px rgb(7, 207, 174);
   box-shadow: 2px 2px 50px rgba(7, 207, 174, 0.32);
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   max-width: 50vw;
   max-height:50vw ;
 }
@@ -226,13 +257,10 @@ nav div h2{
   border: 0;
 }
 
-#homeIconsDiv button:hover{
-  color: rgb(7, 207, 174);
-}
 
 @media (max-width: 816px){
   #homeImgDiv{
-    margin-top: 7vh;
+    margin-top: 10vh;
   }
 }
 
@@ -324,11 +352,11 @@ nav div h2{
   background-color: rgb(11, 23, 34);
   width: 45%;
   max-width: 400px;
-  height: 28vh;
   text-align: center;
   padding-top: 2vh;
   padding-left: 1vw;
   padding-right: 1vw;
+  padding-bottom: 1vh;
   border: 1px solid rgba(175, 175, 175, 0.394);
   border-radius: 12px;
   box-shadow: 1px 1px 10px  rgb(7, 207, 174, 0.095);
@@ -336,9 +364,6 @@ nav div h2{
   transition: transform 0.5s ease;
 }
 
-#certDiv:hover{
-  transform:  translateY(-10px);
-}
 
 #certDiv img{
   width: 95%;
@@ -412,18 +437,7 @@ nav div h2{
   border-radius: 12px;
 }
 
-#projDiv:hover{
-  transform: translateY(-10px);
-}
 
-#projDiv:hover #projImgDiv{
-  background-color:  rgb(7, 207, 174);
-
-}
-
-#projDiv:hover #projImgDiv img{
-  animation: projImgAnim 0.4s forwards;
-}
 
 #projDiv p{
   font-size: clamp(10px,3vw,25px);
@@ -435,6 +449,8 @@ nav div h2{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
 }
 
 
@@ -486,9 +502,6 @@ nav div h2{
   border-radius: 12px;
 }
 
-#touchCont button:hover{
-  border: solid 1px  rgb(7, 207, 174);
-}
 #touchCont p{
   font-size: clamp(10px,2vw,16px);
   margin-top: 0.5vh;
