@@ -42,6 +42,15 @@
   }
 }
 
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+  
+}
 @media(hover:hover){
   .navBtns:hover{
   color: aliceblue;
@@ -85,9 +94,8 @@ body{
 }
 
 nav{
-  background-color: rgba(3, 12, 21, 0.464);
+  background-color: rgba(3, 12, 21, 0.932);
   border-bottom: solid 1px rgb(72, 73, 73);
-  backdrop-filter: blur(5px);
   position: fixed;
   top: 0%;
   width: 100vw;
@@ -158,6 +166,7 @@ nav div h2{
   margin-top: 20vh;
   margin-left: auto;
   margin-right: auto;
+  animation: fadeIn 3.5s;
 }
 
 #homeInfoDiv{
@@ -367,8 +376,7 @@ nav div h2{
 
 #certDiv img{
   width: 95%;
-  height: 20vh ;
-
+  height: 20vh;
   border-radius: 12px;
 }
 
@@ -435,6 +443,7 @@ nav div h2{
   height: 100%;
   width: 100%;
   border-radius: 12px;
+
 }
 
 
@@ -507,4 +516,6 @@ nav div h2{
   margin-top: 0.5vh;
   margin-bottom: 0;
 }
+
+
 
