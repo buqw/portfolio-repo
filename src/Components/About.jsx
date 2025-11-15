@@ -6,6 +6,7 @@ import Html from "../Assets/htmlcss.jpg"
 import js from "../Assets/JavaScript.jpg"
 import Version from "../Assets/Version.jpg"
 import React from "../Assets/React.jpg"
+import advncReact from "../Assets/advanceReact.jpg"
 
 export default function About(props){
     const [certLinks] = useState({
@@ -13,8 +14,10 @@ export default function About(props){
         html: "https://www.coursera.org/account/accomplishments/certificate/73054PD2OMBX",
         js: "https://www.coursera.org/account/accomplishments/certificate/YZOU91U14NYF",
         version: "https://www.coursera.org/account/accomplishments/certificate/RUKZX75AZ96D",
-        react: "https://www.coursera.org/account/accomplishments/certificate/NNIFIXQ8NDAV"
+        react: "https://www.coursera.org/account/accomplishments/certificate/NNIFIXQ8NDAV",
+        advncReact: "https://www.coursera.org/account/accomplishments/verify/X16COU71FXQT"
     })
+
     return(
         <section id="aboutSec" ref={props.refProp}>
             <div id="aboutText">
@@ -29,10 +32,10 @@ export default function About(props){
 
             <div id="allSkills">
                 <Skills skillName={"HTML"} percent={"90%"}></Skills>
-                <Skills skillName={"CSS"} percent={"70%"}></Skills>
-                <Skills skillName={"JavaScript"} percent={"95%"}></Skills>
-                <Skills skillName={"React"} percent={"60%"}></Skills>
-                <Skills skillName={"Verson Control"} percent={"80%"}></Skills>
+                <Skills skillName={"CSS"} percent={"80%"}></Skills>
+                <Skills skillName={"JavaScript"} percent={"85%"}></Skills>
+                <Skills skillName={"React.js"} percent={"75%"}></Skills>
+                <Skills skillName={"Verson Control"} percent={"70%"}></Skills>
             </div>
 
             <h1 ref={props.certRef}>Certificates</h1>
@@ -42,6 +45,7 @@ export default function About(props){
                 <Certificate img={js} name={"Programming with JavaScript"} src={certLinks.js}/>
                 <Certificate img={Version} name={"Version Control"} src={certLinks.version}/>
                 <Certificate img={React} name={"React Basics"} src={certLinks.react}/>
+                <Certificate img={advncReact} name={"Advanced React"} src={certLinks.advncReact}/>
             </div>
 
         </section>

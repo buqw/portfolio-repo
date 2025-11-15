@@ -13,8 +13,6 @@ export default function Projects(props){
 
         <div id="allProj">
             <ProjTemp name = {"Sharara Crypto Currencies Wallet"} src={"https://sharara-repo.vercel.app/"} img={Sharara}/>
-            <ProjTemp name = {"Little Lemon Restaurent"} src={"https://poetic-sunshine-47e598.netlify.app/"} img={little}/>
-            <ProjTemp name = {"Among Us Imposter"} src={"https://comfy-daffodil-bb0edb.netlify.app/"} img={Imposter}/>
         </div>
 
         </div>

@@ -163,7 +163,7 @@ nav div h2{
   align-items: center;
   min-width: 100px;
   max-width: 1400px;
-  margin-top: 20vh;
+  margin-top: 25vh;
   margin-left: auto;
   margin-right: auto;
   animation: fadeIn 3.5s;
@@ -296,7 +296,7 @@ nav div h2{
   padding-bottom: 1vh;
 }
 #aboutSec h1{
-  margin-top: 0%;
+  margin-top: 3vh;
   font-size: clamp(25px,4vw,39px);
 }
 
@@ -359,13 +359,11 @@ nav div h2{
 
 #certDiv{
   background-color: rgb(11, 23, 34);
-  width: 45%;
+  width: 50vw;
   max-width: 400px;
+  margin-top: 2vh;
   text-align: center;
-  padding-top: 2vh;
-  padding-left: 1vw;
-  padding-right: 1vw;
-  padding-bottom: 1vh;
+  padding: 0.5vw;
   border: 1px solid rgba(175, 175, 175, 0.394);
   border-radius: 12px;
   box-shadow: 1px 1px 10px  rgb(7, 207, 174, 0.095);
@@ -378,17 +376,17 @@ nav div h2{
   width: 95%;
   height: 20vh;
   border-radius: 12px;
+  margin-top: 0.5vh;
 }
 
 #certName{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 6vh;
 }
 
 #certName p{
-  font-size: clamp(12px,2vw,28px);
+  font-size: clamp(14px,2vw,28px);
 }
 
 #proSec{
@@ -410,22 +408,24 @@ nav div h2{
 
 }
 #proSec h1{
-  margin-top: 4vh;
+  margin-top: 5vh;
   color:  rgb(7, 207, 174);
   
 }
 
 #projDiv{
   background-color: rgb(11, 23, 34) ;
-  width: 35vw;
+  width: 50vw;
   max-width: 400px;
   border-radius: 12px;
   text-align: center;
   cursor: pointer;
   border: 1px solid rgba(80, 80, 80, 0.194);
   box-shadow: 1px 1px 10px black;
-  padding-left: 1vw;
-  padding-right: 1vw;
+  margin-top: 2vh;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  padding-top: 0.5vw;
   transition: transform 0.5s ease;
 
 }
@@ -433,10 +433,11 @@ nav div h2{
 
 
 #projImgDiv{
-  height: 15vh;
+  height: 17vh;
   width: 100%;
-  margin-top: 1vh;
   border-radius: 12px;
+  background-color: antiquewhite;
+
 }
 
 #projImgDiv img{
