@@ -1,7 +1,6 @@
 import ProjTemp from "./ProjTemp"
 import Sharara from "../Assets/ShararaProj.jpg"
-import little from "../Assets/littleLemon.jpg"
-import Imposter from "../Assets/Imposter.jpg"
+import todo from "../Assets/Todo.jpg"
 
 export default function Projects(props){
 
@@ -13,6 +12,7 @@ export default function Projects(props){
 
         <div id="allProj">
             <ProjTemp name = {"Sharara Crypto Currencies Wallet"} src={"https://sharara-repo.vercel.app/"} img={Sharara}/>
+            <ProjTemp name = {"To Do List"} src={"https://todo-repo-sepia.vercel.app/"} img={todo}/>
         </div>
 
         </div>
