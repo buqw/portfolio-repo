@@ -22,7 +22,7 @@ export default function About(props){
         <section id="aboutSec" ref={props.refProp}>
             <div id="aboutText">
                 <h1>About Me</h1>
-                <h5>I'm a passionate full-stack developer with 2+
+                <h5>I'm a passionate Front-End Developer with 2+
                     years of experience building modern web
                     applications. I specialize in JavaScript, React,
                     and creating delightful user experiences.</h5>
@@ -31,10 +31,10 @@ export default function About(props){
             <h1>Skills</h1>
 
             <div id="allSkills">
-                <Skills skillName={"HTML"} percent={"90%"}></Skills>
-                <Skills skillName={"CSS"} percent={"80%"}></Skills>
+                <Skills skillName={"HTML"} percent={"95%"}></Skills>
+                <Skills skillName={"CSS"} percent={"85%"}></Skills>
                 <Skills skillName={"JavaScript"} percent={"85%"}></Skills>
-                <Skills skillName={"React.js"} percent={"75%"}></Skills>
+                <Skills skillName={"React.js"} percent={"85%"}></Skills>
                 <Skills skillName={"Verson Control"} percent={"70%"}></Skills>
             </div>
 
